@@ -1,2 +1,7 @@
 # Use the httpd-parent image as base
 FROM quay.io/redhattraining/httpd-parent
+
+#RUN yum --disablerepo=* --enablerepo="rhel-7-server-rpms" && \
+#yum update && \
+#yum install -y httpd && \
+#yum clean all -y
